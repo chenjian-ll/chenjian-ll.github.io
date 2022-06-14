@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>测试</title>
+      <link href="/2022/061337773.html"/>
+      <url>/2022/061337773.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><h2 id="1-任务1：登录系统，根据“附录：设备-IP-地址表”配置网络-IP-地址-”"><a href="#1-任务1：登录系统，根据“附录：设备-IP-地址表”配置网络-IP-地址-”" class="headerlink" title="1.任务1：登录系统，根据“附录：设备 IP 地址表”配置网络 IP 地址 ”"></a>1.任务1：登录系统，根据“附录：设备 IP 地址表”配置网络 IP 地址 ”</h2><h3 id="1）使用ifconfig命令查询本机的IP"><a href="#1）使用ifconfig命令查询本机的IP" class="headerlink" title="1）使用ifconfig命令查询本机的IP"></a>1）使用<font color="red">ifconfig</font>命令查询本机的IP</h3><p><img src="/./%E6%B5%8B%E8%AF%95-1.png" alt="未能正常显示"><br><img src="./测试-1.png"></p><h3 id="2）据“附录：设备-IP-地址表”配置网络-IP-地址"><a href="#2）据“附录：设备-IP-地址表”配置网络-IP-地址" class="headerlink" title="2）据“附录：设备 IP 地址表”配置网络 IP 地址"></a>2）据“附录：设备 IP 地址表”配置网络 IP 地址</h3><p><img src="/./%E6%B5%8B%E8%AF%95-2.png" alt="未能正常显示">   </p><h3 id="使用命令sudo-ifconfig-【网卡】【想要配置的IP】netmask-【子网掩码】实现。"><a href="#使用命令sudo-ifconfig-【网卡】【想要配置的IP】netmask-【子网掩码】实现。" class="headerlink" title="使用命令sudo ifconfig 【网卡】【想要配置的IP】netmask 【子网掩码】实现。"></a>使用命令<font color="red">sudo ifconfig 【网卡】【想要配置的IP】netmask 【子网掩码】</font>实现。</h3><h2 id="2-任务2：使用控制台命令设置系统拒绝-IP-为-192-168-100-100-这台-PC-机访问。"><a href="#2-任务2：使用控制台命令设置系统拒绝-IP-为-192-168-100-100-这台-PC-机访问。" class="headerlink" title="2.任务2：使用控制台命令设置系统拒绝 IP 为 192.168.100.100 这台 PC 机访问。"></a>2.任务2：使用控制台命令设置系统拒绝 IP 为 192.168.100.100 这台 PC 机访问。</h2><h3 id="1）使用命令sudo-iptables-I-INPUT-s-192-168-100-100-j-DROP实现。"><a href="#1）使用命令sudo-iptables-I-INPUT-s-192-168-100-100-j-DROP实现。" class="headerlink" title="1）使用命令sudo iptables -I INPUT -s 192.168.100.100 -j DROP实现。"></a>1）使用命令<font color="red">sudo iptables -I INPUT -s 192.168.100.100 -j DROP</font>实现。</h3><h3 id="2）使用命令sudo-iptables-L-INPUT查看禁用效果"><a href="#2）使用命令sudo-iptables-L-INPUT查看禁用效果" class="headerlink" title="2）使用命令sudo iptables -L INPUT查看禁用效果"></a>2）使用命令sudo iptables -L INPUT查看禁用效果</h3><p><img src="/./%E6%B5%8B%E8%AF%95-3.png" alt="未能正常显示">   </p><h2 id="3-一些注意事项"><a href="#3-一些注意事项" class="headerlink" title="3.一些注意事项"></a>3.一些注意事项</h2><h3 id="1）注意：比赛的机子默认没有安装工具包，所以使用ifconfig命令可能会碰到下图所示的情况"><a href="#1）注意：比赛的机子默认没有安装工具包，所以使用ifconfig命令可能会碰到下图所示的情况" class="headerlink" title="1）注意：比赛的机子默认没有安装工具包，所以使用ifconfig命令可能会碰到下图所示的情况"></a>1）注意：比赛的机子默认没有安装工具包，所以使用ifconfig命令可能会碰到下图所示的情况</h3><p><img src="/./%E6%B5%8B%E8%AF%95-4.png" alt="未能正常显示">   </p><h3 id="2）当你尝试用sudo-apt-install-net-tools命令后，你可能会遇到下图所示的情况"><a href="#2）当你尝试用sudo-apt-install-net-tools命令后，你可能会遇到下图所示的情况" class="headerlink" title="2）当你尝试用sudo apt install net-tools命令后，你可能会遇到下图所示的情况"></a>2）当你尝试用<font color="red">sudo apt install net-tools</font>命令后，你可能会遇到下图所示的情况</h3><p><img src="/./%E6%B5%8B%E8%AF%95-5.png" alt="未能正常显示">   </p><h3 id="需要解锁：在shell中输入sudo-rm-x2F-var-x2F-lib-x2F-dpkg-x2F-lock实现解锁后。就可以正常输入sudo-apt-install-net-tools命令了，然后就可以输入ifconfig命令查看ip地址了。"><a href="#需要解锁：在shell中输入sudo-rm-x2F-var-x2F-lib-x2F-dpkg-x2F-lock实现解锁后。就可以正常输入sudo-apt-install-net-tools命令了，然后就可以输入ifconfig命令查看ip地址了。" class="headerlink" title="需要解锁：在shell中输入sudo rm /var/lib/dpkg/lock实现解锁后。就可以正常输入sudo apt install net-tools命令了，然后就可以输入ifconfig命令查看ip地址了。"></a>需要解锁：在shell中输入<font color="red">sudo rm /var/lib/dpkg/lock</font>实现解锁后。就可以正常输入sudo apt install net-tools命令了，然后就可以输入ifconfig命令查看ip地址了。</h3><p><img src="/./%E6%B5%8B%E8%AF%95-6.png" alt="未能正常显示">   </p><h3 id="3）另：你也无法知道自己的root密码，这同样需要设置。在命令行中输入sudo-passwd然后按回车"><a href="#3）另：你也无法知道自己的root密码，这同样需要设置。在命令行中输入sudo-passwd然后按回车" class="headerlink" title="3）另：你也无法知道自己的root密码，这同样需要设置。在命令行中输入sudo passwd然后按回车"></a>3）另：你也无法知道自己的root密码，这同样需要设置。在命令行中输入<font color="red">sudo passwd</font>然后按回车</h3><p><img src="/./%E6%B5%8B%E8%AF%95-7.png" alt="未能正常显示">   </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>markown语法小记.md</title>
       <link href="/2022/061357624.html"/>
       <url>/2022/061357624.html</url>
